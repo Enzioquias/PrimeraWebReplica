@@ -1,0 +1,219 @@
+
+/* NAVBAR */
+.logo {
+    margin-left:3%;
+    height: 5%;
+    width: 5%;
+}
+
+header {
+    font-size: 20px;
+}
+.navbar{
+    background-color: rgb(80, 80, 80);
+    height: 90px;
+}
+
+.navbar-brand , .one{
+    color: white;
+}
+
+/* MAIN - 1ERA SECCION */
+
+.main {
+    display: block;
+}
+.foto1 {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Img/hawaii.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foto1 h2, h3 {
+    margin-right: 100px;
+}
+
+.separador {
+    height: 30%;
+}
+.foto1 {
+    height: 1000px;
+    color: white;
+    text-align: right;
+    margin-right:5%;
+}
+
+.boton {
+    font-size: 22px;
+    height: 60px;
+    width: 250px;
+    border-radius: 5%;
+    color: white;
+}
+
+.boton1 {
+ background-color: transparent;
+ font-weight: bold;
+ margin-right: 10px;
+}
+
+.boton2 {
+background-color: rgb(13, 165, 13);
+border-color: rgb(13, 165, 13);
+margin-right: 100px;
+}
+
+/* MAIN - 2DA SECCION */
+
+.seccionOradores , .form{
+    height: 750px;
+    background-color: white;
+    text-align: center;
+}
+
+.seccionOradores h4 , .form h4{
+    font-size: 20px;
+}
+
+.oradores {
+    margin: 10px 50vh;
+    height: 80%;
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.oradores h2 {
+    font-weight: bold;
+}
+
+.oradores h3 {
+    font-size: medium;
+}
+.oradores h2, .oradores h3 {
+    margin: 0 2vh;
+}
+
+
+.cards {
+    border-color: rgb(228, 222, 222);
+    border-radius: 1%;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.cardsimg {
+    width: 100%;
+}
+
+#jobs, #gates, #lovelace {
+    width: 300x;
+    height: 300px;
+}
+
+.especialidades {
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+.js {
+    margin-left: 2vh;
+    background-color: orange;
+    color: black;
+}
+
+.react {
+    background-color: rgb(22,163,183);
+    color: white;
+}
+
+.negocios {
+    margin-left: 2vh;
+    background-color: grey;
+    color: white;
+}
+
+.startups {
+    background-color: red;
+    color: white;
+}
+
+.cards {
+    text-align: left;
+    margin-left: 2vh;
+}
+
+/* MAIN - 3ERA SECCION */
+
+.foto2 {
+    background-color: rgb(71, 71, 71);
+    color: white;
+    display: flex;
+    flex: 1;
+}
+
+.holo1{
+    size: 25%;
+}
+
+.holo2 {
+    size: 25%;
+}
+
+/* MAIN 4TA SECCION */
+
+.form {
+    height: 600px;
+}
+
+.buttonForm {
+    width:100vh; 
+    height: 5vh;
+    font-size: x-large;
+    background-color: rgb(121, 177, 88);
+    color: white;
+}
+
+.footer {
+    background-color: rgb(30, 18, 94);
+    color: white;
+    min-height: 100px;
+    display: flex;
+
+}
+
+.itemFooter {
+    margin-top: 10px;
+    align-content: center;
+    flex-basis: 0;
+    flex-grow: 1;
+    align-content: center;
+    vertical-align: center;
+}
+
+.itemFooter a {
+    color: white;
+    text-decoration: none;
+}
+
+.itemFooter a:link {
+   
+}
+
+.itemFooter a:focus {
+    color: rgb(165, 161, 161);
+}
+
+.itemFooter a:hover {
+    
+    color: rgb(105, 103, 103);
+}
+
+.itemFooter a:active {
+    background: white;
+}
+
