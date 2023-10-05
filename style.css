@@ -25,7 +25,7 @@ header {
 }
 .foto1 {
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Img/hawaii.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Img/hawaii.jpg);
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
